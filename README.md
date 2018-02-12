@@ -15,7 +15,8 @@ Il suffit de lancer le fichier `index.html` dans un navigateur pour tester l'app
 
 ## Lancer les tests
 
-L'application a été développé à partir de `Yeoman` et le générateur `Webapp`.
+L'application a été développée à partir de `Yeoman` et le générateur `Webapp`.
+
 Pour lancer les tests unitaires vous devez installer: 
 - `npm` le gestionnaire de paquets officiel de `Node.js`
 - `Bower`un autre gestionnaire de paquets dédié aux projets front-end
@@ -24,11 +25,13 @@ Pour lancer les tests unitaires vous devez installer:
 Ouvrez un terminal et lancer la commande:
 `npm install --global yo gulp-cli bower generator-webapp`
  
-Faites pointer votre terminal dan le repertoire racine du projet et lancer la commande:
+Faites pointer votre terminal dans le repertoire racine du projet et lancer la commande:
 `npm install`
 
 Si tout est bien installé, vous devriez pouvoir lancer les tests unitaires en lançant la commande:
 `gulp serve:test`
 
+Votre navigateur devrait s'ouvrir et vous afficher l'écran suivant:
 
+![](screenshot-tests.png)
  
