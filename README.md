@@ -22,9 +22,11 @@ Pour lancer les tests unitaires vous devez installer:
 - `Gulp` l'outil qui va permettre de tester l'application
 
 Ouvrez un terminal et lancer la commande:
-`npm install --global yo gulp-cli bower generator-webapp` 
+`npm install --global yo gulp-cli bower generator-webapp`
+ 
 Faites pointer votre terminal dan le repertoire racine du projet et lancer la commande:
 `npm install`
+
 Si tout est bien installé, vous devriez pouvoir lancer les tests unitaires en lançant la commande:
 `gulp serve:test`
 
